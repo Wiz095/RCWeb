@@ -1,0 +1,190 @@
+<style>
+  header {
+    background-color: maroon;
+    color: white;
+    
+  }
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  }
+
+  .right-side {
+    order: 1;
+  }
+
+  .hashtag {
+    display: inline-block;
+  }
+  nav ul {
+     list-style: none;
+    margin: 0;
+    padding: 0; 
+    
+  }
+    ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 25px;
+  }
+
+  li:first-child {
+    margin-left: 0;
+    
+  }
+
+  nav ul li {
+    margin: 10px;
+  }
+   nav ul li:first-child {
+  margin-right: auto;
+  }
+   nav ul li:last-child {
+  margin-left: auto;
+  }
+
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover {
+    color: blue;
+  }
+      .nav-links li:first-child a {
+    font-size: 300px;}
+ .logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 300px;
+  height: 300px;
+  margin-right: 10px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.logo.fade-in img {
+  opacity: 1;
+}
+
+ 
+  h1 {
+    margin: 0;
+    font-size: 60px;
+  }
+
+  .logo a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .logo-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+  }
+
+  .slideshow-container {
+    position: relative;
+    padding-top: 20px;
+    border-top: 1px solid maroon;
+  }
+
+  
+
+#slideshow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: auto;
+  overflow: hidden;
+}
+
+#slideshow img {
+  flex-shrink: 0;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  border: 2px solid maroon;
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom: 10px; /* Remove the bottom border */
+}
+
+
+
+  #slideshow img.active {
+    opacity: 1;
+  }
+
+  #slideshow img:last-child {
+    border-bottom: 2px solid maroon; /* Add the bottom border to the last image */
+  }
+
+  
+
+  #nextButton {
+    background-color: white;
+    color: maroon;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  #nextButton:hover {
+    background-color: maroon;
+    color: white;
+  }
+  /*footer*/
+  footer {
+  padding: 0 0 30px 0;
+  font-size: 14px;
+  background: #fff;
+  background: maroon;
+}
+#about {
+    font-style: cursive;
+    font-weight: 400;
+    
+}
+
+#contact {
+    font-style: 'Montserrat', italic ;
+    font-weight: 400;
+}
+
+h2  {
+    font-family: italic;
+    font-weight: 400;
+    padding-left: 0px;
+    text-align: center;
+
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+   padding: 15px;
+    margin: 25px;
+}
+ li {
+    font-style: italic;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+</style>
